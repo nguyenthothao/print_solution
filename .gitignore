@@ -1,5 +1,20 @@
-/wp-content/uploads
-/wp-content/cache
+# Core WordPress files (tùy bạn có muốn push hay không)
 wp-config.php
 .htaccess
-node_modules
+
+# Thư mục upload
+/wp-content/uploads
+
+# Cache plugin
+/wp-content/cache
+/wp-content/upgrade
+
+# Các file hệ thống
+*.log
+node_modules/
+vendor/
+.env
+
+# IDE config
+.vscode/
+.idea/
